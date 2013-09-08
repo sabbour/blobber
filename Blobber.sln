@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blobber", "Blobber\Blobber.csproj", "{CE6BDD1F-BBCE-4252-91D3-D15715A57687}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "Blobber.Azure", "Blobber.Azure\Blobber.Azure.ccproj", "{5FDD5F78-060C-4DC8-A82B-8A5318A60FBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailWorkerRole", "EmailWorkerRole\EmailWorkerRole.csproj", "{4A02B9B3-CE1A-4F84-AFE6-1D58227D2BF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE6BDD1F-BBCE-4252-91D3-D15715A57687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE6BDD1F-BBCE-4252-91D3-D15715A57687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE6BDD1F-BBCE-4252-91D3-D15715A57687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE6BDD1F-BBCE-4252-91D3-D15715A57687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FDD5F78-060C-4DC8-A82B-8A5318A60FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FDD5F78-060C-4DC8-A82B-8A5318A60FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FDD5F78-060C-4DC8-A82B-8A5318A60FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FDD5F78-060C-4DC8-A82B-8A5318A60FBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A02B9B3-CE1A-4F84-AFE6-1D58227D2BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A02B9B3-CE1A-4F84-AFE6-1D58227D2BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A02B9B3-CE1A-4F84-AFE6-1D58227D2BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A02B9B3-CE1A-4F84-AFE6-1D58227D2BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

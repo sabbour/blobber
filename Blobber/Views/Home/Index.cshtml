@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<ul>
+    @{
+        var uploads = ViewBag.Uploads as List<Blobber.Models.FileUploadEntity>;
+        foreach (var upload in uploads)
+        {
+            <li>@upload.PartitionKey - @upload.Url</li>
+        }
+    }
+</ul>
+<form enctype="multipart/form-data" action="/home/upload" method="post">
+    <input type="file" name="uploadedfile" />
+    <input type="text" name="owner" />
+    <input type="text" name="description" />
+    <input type="submit" value="Upload file" />
+</form>

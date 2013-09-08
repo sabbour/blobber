@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="Blobber.Azure" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="3" osVersion="*" schemaVersion="2013-03.2.0">
+  <Role name="Blobber">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="StorageConnection" value="DefaultEndpointsProtocol=https;AccountName=testappfactory;AccountKey=lZsR7RO/zr4zGrp0cyPkefSfMunB47S34Pa2bflC37qQH7b83pCB3K40W+XesFC6cB7DislfZI3x3cLU2a82pw==" />
+    </ConfigurationSettings>
+  </Role>
+  <Role name="EmailWorkerRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="StorageConnection" value="DefaultEndpointsProtocol=https;AccountName=testappfactory;AccountKey=lZsR7RO/zr4zGrp0cyPkefSfMunB47S34Pa2bflC37qQH7b83pCB3K40W+XesFC6cB7DislfZI3x3cLU2a82pw==" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
